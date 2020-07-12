@@ -137,7 +137,7 @@ Update sound for opening/closing notification window (was infodialog)
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.youtube.dl" version="15.318.0"/>
-        <import addon="script.module.beautifulsoup" version="3.0.8"/>
+        <import addon="script.module.beautifulsoup4" version="4.8.2+matrix.1"/>
         <import addon="script.module.requests" version="2.3.0"/>
     </requires>
     <extension point="xbmc.python.script" library="addon.py">
@@ -184,10 +184,7 @@ add: Support for special:// content paths - Issue #124
     </extension>
 </addon>
 
-<addon id="script.database.cleaner"
-      name="Video Database Cleaner"
-      version="0.6.1+matrix.1"
-      provider-name="black_eagle, BatterPudding.">
+<addon id="script.database.cleaner" name="Video Database Cleaner" version="0.6.1+matrix.1" provider-name="black_eagle, BatterPudding.">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.myconnpy" version="1.1.7"/>
@@ -648,10 +645,7 @@ Egenskaper:
   </extension>
 </addon>
 
-<addon id="script.keymap"
-       name="Keymap Editor"
-       version="1.0.10+matrix.1"
-       provider-name="takoi">
+<addon id="script.keymap" name="Keymap Editor" version="1.0.10+matrix.1" provider-name="takoi">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -867,12 +861,7 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 	</extension>
 </addon>
 
-<addon
-	id="service.languagepreferencemanager"
-	name="Language Preference Manager"
-	version="0.0.7+matrix.1"
-	provider-name="ace20022/scott967"
-	>
+<addon id="service.languagepreferencemanager" name="Language Preference Manager" version="0.0.7+matrix.1" provider-name="ace20022/scott967">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -893,11 +882,7 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 
 </addon>
 
-<addon
-  id="service.rom.collection.browser"
-  version="1.1.0"
-  name="Rom Collection Browser Service"
-  provider-name="malte">
+<addon id="service.rom.collection.browser" version="1.1.0" name="Rom Collection Browser Service" provider-name="malte">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
