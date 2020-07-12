@@ -3,7 +3,7 @@
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.youtube.dl" version="15.318.0"/>
-        <import addon="script.module.beautifulsoup" version="3.0.8"/>
+        <import addon="script.module.beautifulsoup4" version="4.8.2+matrix.1"/>
         <import addon="script.module.requests" version="2.3.0"/>
     </requires>
     <extension point="xbmc.python.script" library="addon.py">
