@@ -730,7 +730,7 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 	</extension>
 </addon>
 
-<addon id="script.tv.show.next.aired" name="TV Show - Next Aired" version="6.0.15+matrix.1" provider-name="Ppic,Frost,ronie,`Black,phil65,WayneD">
+<addon id="script.tv.show.next.aired" name="TV Show - Next Aired" version="6.0.15+matrix.2" provider-name="Ppic,Frost,ronie,`Black,phil65,WayneD">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
