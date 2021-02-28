@@ -591,29 +591,6 @@ Egenskaper:
   </extension>
 </addon>
 
-<addon id="script.keymap"
-       name="Keymap Editor"
-       version="1.0.10+matrix.1"
-       provider-name="takoi">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="main.py"/>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">An editor for keymap files</summary>
-        <description lang="en_GB">Keymap Editor is a GUI for configuring mappings for remotes, keyboard and other inputs supported by xbmc. Note: existing user defined key mappings will be removed.</description>
-        <platform>all</platform>
-        <language/>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <forum>http://forum.xbmc.org/showthread.php?tid=168767</forum>
-        <source>https://github.com/tamland/xbmc-keymap-editor</source>
-    </extension>
-	<assets>
-		<icon>resources/icon.png</icon>
-		<news>Kodi Matrix (python 3) compatible</news>
-	</assets>
-</addon>
-
 <addon id="script.libraryeditor" name="Library Editor Script" version="0.9.0+matrix.2" provider-name="phil65">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -652,32 +629,6 @@ Egenskaper:
 	<assets>
 		<icon>resources/icon.png</icon>
 	</assets>
-</addon>
-
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="20.728.0+matrix.2" provider-name="Rick Phillips (ruuk)">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0" />
-        <import addon="script.module.addon.signals" version="0.0.5+matrix.1"/>
-    </requires>
-    <extension point="xbmc.python.script" library="control.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en_GB">Module providing access to youtube-dl video stream extraction</summary>
-        <description lang="en_GB">Module providing access to youtube-dl video stream extraction for hundreds of sites. Version is based on youtube-dl date version: YY.MDD.V where V is the addon specific sub-version. Also provides downloading with the option for background downloading with a queue and queue manager.</description>
-        <summary lang="el_GR">Βοηθητική μονάδα πρόσβασης στους επιλυτές youtube-dl για την εξαγωγή ροών βίντεο</summary>
-        <description lang="el_GR">Βοηθητική μονάδα πρόσβασης στους επιλυτές youtube-dl για την εξαγωγή ροών βίντεο από εκατοντάδες ιστότοπους. Η έκδοση βασίζεται στην έκδοση ημερομηνίας του youtube-dl: EE.MHH.EK όπου ΕΚ η υπό-έκδοση συγκεκριμένα για το πρόσθετο. Επιπλέον δίνει δυνατότητα μεταφόρτωσης στο παρασκήνιο με ουρά και διαχειριστή αυτής.</description>
-        <summary lang="es_ES">Módulo que proporciona acceso a YouTube-dl para la extracción de flujos de video</summary>
-        <description lang="es_ES">Módulo que proporciona acceso a YouTube-dl para la extracción de flujos de video de cientos de sitios. La versión está basada en la versión de fecha youtube-dl: YY.MDD.V donde V es la subversión específica del complemento. También permite descargas con la opción de descarga en segundo plano con una cola y un administrador de colas.</description>
-        <license>LGPL-2.1-only</license>
-        <forum>https://forum.kodi.tv/showthread.php?tid=200877</forum>
-        <source>https://github.com/ruuk/script.module.youtube.dl</source>
-		<assets>
-            <icon>icon.png</icon>
-		</assets>
-    </extension>
 </addon>
 
 <addon id="script.randomandlastitems" name="Random and Last items script" version="2.2.2+Matrix.4" provider-name="MikeBZH44, Martijn, `Black">
