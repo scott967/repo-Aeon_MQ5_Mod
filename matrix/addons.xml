@@ -76,12 +76,12 @@
     </extension>
 </addon>
 
-<addon id="script.cinemavision" name="CinemaVision" version="1.1.1+matrix.1" provider-name="CinemaVision">
+<addon id="script.cinemavision" name="CinemaVision" version="1.1.1+matrix.2" provider-name="CinemaVision">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.youtube.dl" version="15.318.0"/>
-        <import addon="script.module.beautifulsoup4" version="4.8.2+matrix.1"/>
-        <import addon="script.module.requests" version="2.3.0"/>
+        <import addon="script.module.youtube.dl" version="21.204.0+matrix.1"/>
+        <import addon="script.module.beautifulsoup4" version="4.9.3+matrix.1"/>
+        <import addon="script.module.requests" version="2.22.0+matrix.1"/>
     </requires>
     <extension point="xbmc.python.script" library="addon.py">
         <provides>executable</provides>
@@ -129,11 +129,11 @@ add: Support for special:// content paths - Issue #124
 
 <addon id="script.database.cleaner"
       name="Video Database Cleaner"
-      version="0.6.1+matrix.1"
+      version="0.6.1+matrix.2"
       provider-name="black_eagle, BatterPudding.">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.myconnpy" version="1.1.7"/>
+    <import addon="script.module.myconnpy" version="8.0.18+matrix.1"/>
   </requires>
   <extension point="xbmc.python.script"
             library="default.py" />
@@ -614,10 +614,10 @@ Egenskaper:
 	</assets>
 </addon>
 
-<addon id="script.libraryeditor" name="Library Editor Script" version="0.9.0+matrix.1" provider-name="phil65">
+<addon id="script.libraryeditor" name="Library Editor Script" version="0.9.0+matrix.2" provider-name="phil65">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.module.simplejson" version="3.17.0+matrix.2"/>
 	</requires>
 	<extension point="xbmc.python.library" library="default.py" />
 	<extension point="xbmc.addon.metadata">
@@ -680,11 +680,11 @@ Egenskaper:
     </extension>
 </addon>
 
-<addon id="script.randomandlastitems" name="Random and Last items script" version="2.2.2+Matrix.3" provider-name="MikeBZH44, Martijn, `Black">
+<addon id="script.randomandlastitems" name="Random and Last items script" version="2.2.2+Matrix.4" provider-name="MikeBZH44, Martijn, `Black">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="xbmc.json" version="6.0.0"/>
-        <import addon="script.module.simplejson" version="2.0.10"/>
+        <import addon="xbmc.json" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="3.17.0+matrix.2"/>
     </requires>
     <extension point="xbmc.python.library" library="randomandlastitems.py" />
     <extension point="xbmc.addon.metadata">
@@ -729,11 +729,11 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 	</extension>
 </addon>
 
-<addon id="script.tv.show.next.aired" name="TV Show - Next Aired" version="6.0.15+matrix.2" provider-name="Ppic,Frost,ronie,`Black,phil65,WayneD">
+<addon id="script.tv.show.next.aired" name="TV Show - Next Aired" version="6.0.15+matrix.3" provider-name="Ppic,Frost,ronie,`Black,phil65,WayneD">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.simplejson" version="2.0.10"/>
-		<import addon="script.module.six" version="1.0.0"/>
+		<import addon="script.module.simplejson" version="3.17.0+matrix.2"/>
+		<import addon="script.module.six" version="1.14.0+matrix.2"/>
 	</requires>
 	<extension point="xbmc.python.script" library="default.py">
 		<provides>executable</provides>
@@ -853,11 +853,11 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
   </extension>
 </addon>
 
-<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.33+matrix.1" provider-name="Martijn, phil65, scott967">
+<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.33+matrix.2" provider-name="Martijn, phil65, scott967">
     <requires>
-        <import addon="xbmc.json" version="11.2.0"/>
+        <import addon="xbmc.json" version="12.0.0"/>
         <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.simplejson" version="2.0.10"/>
+        <import addon="script.module.simplejson" version="3.17.0+matrix.2"/>
     </requires>
     <extension point="xbmc.service" library="default.py"/>
     <extension point="xbmc.addon.metadata">
@@ -927,11 +927,11 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
     </extension>
 </addon>
 
-<addon id="service.tvtunes" name="TvTunes" version="1.0.1+matrix.3" provider-name="latts">
+<addon id="service.tvtunes" name="TvTunes" version="1.0.1+matrix.4" provider-name="latts">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.simplejson" version="3.3.0"/>
-		<import addon="script.module.requests" version="2.3.0"/>
+		<import addon="script.module.simplejson" version="3.17.0+matrix.2"/>
+		<import addon="script.module.requests" version="2.22.0+matrix.1"/>
 	</requires>
 	<extension point="xbmc.service" library="service.py" start="login"/>
 	<extension point="xbmc.python.module" library="resources/lib" />
