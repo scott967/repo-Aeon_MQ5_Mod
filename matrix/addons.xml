@@ -150,7 +150,7 @@ add: Support for special:// content paths - Issue #124
   </extension>
 </addon>
 
-<addon id="script.extendedinfo" name="ExtendedInfo Script" version="5.6.0+matrix.3" provider-name="phil65 (Philipp Temminghoff)">
+<addon id="script.extendedinfo" name="ExtendedInfo Script" version="5.6.0+matrix.4" provider-name="phil65 (Philipp Temminghoff)">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="resource.images.studios.white" version="0.0.25"/>
@@ -173,7 +173,7 @@ add: Support for special:// content paths - Issue #124
 		<forum>http://forum.kodi.tv/showthread.php?tid=160558</forum>
 		<source>https://github.com/phil65/script.extendedinfo</source>
 		<email>phil65@kodi.tv</email>
-		<news>Python 3 fixes by scott967.  Requires Kodi65 module version 1.2.1+matrix.1 which is also available</news>
+		<news>Python 3 fixes by scott967.  Requires Kodi65 module version 1.2.1+matrix.3 which is also available</news>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
