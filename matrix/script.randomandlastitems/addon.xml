@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.randomandlastitems" name="Random and Last items script" version="2.2.2+Matrix.4" provider-name="MikeBZH44, Martijn, `Black">
+<addon id="script.randomandlastitems" name="Random and Last items script" version="2.2.2+matrix.5" provider-name="MikeBZH44, Martijn, `Black">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="xbmc.json" version="12.0.0"/>
         <import addon="script.module.simplejson" version="3.17.0+matrix.2"/>
     </requires>
     <extension point="xbmc.python.library" library="randomandlastitems.py" />
+	<extension point="xbmc.python.script" library="randomandlastitems.py">
+		<provides>executable</provides>
+	</extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Random And Last Items script</summary>
         <description lang="en">
