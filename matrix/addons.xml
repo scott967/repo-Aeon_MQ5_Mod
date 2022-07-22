@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="metadata.common.filenamescraper"
+       name="Filename-only Scraper"
+       version="0.0.1+matrix.1"
+       provider-name="chaosgrid">
+  <requires>
+    <import addon="xbmc.metadata" version="2.1.0"/>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.movies"
+             library="scrape_filename.py" />
+  <extension point="xbmc.metadata.scraper.musicvideos"
+             library="scrape_filename.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Filename-only Scraper</summary>
+    <description lang="en">Scrapes the filename by removing file extension and replacing - and _ with spaces.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="script.artworkorganizer" name="Artwork Organizer" version="6.0.3+matrix.1" provider-name="ronie, redglory">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
@@ -859,6 +878,24 @@ matrix.3 fix  Send Runscript not XBMC.Runscript to Kodi (Kodi 19 change)</news>
 			<icon>resources/icon.png</icon>
 		</assets>
     </extension>
+</addon>
+
+<addon id="service.skinhelper.IP"
+    name="IP Helper Service"
+    version="1.0.1+matrix.1"
+    provider-name="Snecx">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.service" library="default.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Service to monitor IP and GPU/CPU</summary>
+        <description lang="en_GB"></description>
+        <platform>all</platform>
+    </extension>
+    <assets>
+        <icon>resources/icon.png</icon>
+    </assets>
 </addon>
 
 <addon id="service.tvtunes" name="TvTunes" version="1.0.1+matrix.4" provider-name="latts">
