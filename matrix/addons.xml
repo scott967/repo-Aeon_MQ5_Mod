@@ -610,12 +610,14 @@ Egenskaper:
   </extension>
 </addon>
 
-<addon id="script.libraryeditor" name="Library Editor Script" version="0.9.0+matrix.2" provider-name="phil65">
+<addon id="script.libraryeditor" name="Library Editor Script" version="0.9.0+matrix.3" provider-name="phil65">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.simplejson" version="3.17.0+matrix.2"/>
 	</requires>
 	<extension point="xbmc.python.library" library="default.py" />
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
 	<extension point="xbmc.addon.metadata">
 		<language/>
 		<summary lang="en_GB">Library Editor Script</summary>
@@ -623,7 +625,7 @@ Egenskaper:
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
 		<forum>-</forum>
-		<source>-</source>
+		<source>https://github.com/scott967/script.libraryeditor</source>
 		<email>-</email>
 	</extension>
 </addon>
