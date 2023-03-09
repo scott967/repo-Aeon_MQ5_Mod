@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.aeonmq5.nexusmod" name="Aeon MQ 5 Nexusmod" provider-name="MarcosQui / scott967" version="12.4.0">
+<addon id="skin.aeonmq5.nexusmod" name="Aeon MQ 5 Nexusmod" provider-name="MarcosQui / scott967" version="12.5.0">
 	<requires>
 		<import addon="xbmc.gui" version="5.16.0" />
 		<import addon="script.artistslideshow" version="3.3.0" />
@@ -68,12 +68,13 @@
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
 		</assets>
-		<news>[B][COLOR=FFFF8C00]BUILD 12.4.0- RELEASE DATE 2022-11-14 for Kodi NEXUS 20 Beta 1[/COLOR][/B]
-This is a MOD of Aeon MQ5 by user scott967.  Compatible with Kodi Nexus release 20 B1 +
+		<news>[B][COLOR=FFFF8C00]BUILD 12.5.0- RELEASE DATE 2023-02-28 for Kodi NEXUS 20.0/20.1[/COLOR][/B]
+This is a MOD of Aeon MQ5 by user scott967.  Compatible with Kodi Nexus release 20.0 plus
 Support for color button
 Support for video HDR type
-Support for New Favourites Browser window
-
+Support for new Favourites Browser window
+Support for new screen calibration controls
+See changelog for more
 		</news>
 	</extension>
 
