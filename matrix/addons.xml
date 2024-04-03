@@ -169,44 +169,6 @@ add: Support for special:// content paths - Issue #124
   </extension>
 </addon>
 
-<addon id="script.extendedinfo" name="ExtendedInfo Script" version="6.0.5~beta.1" provider-name="scott967">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="resource.images.studios.white" version="0.0.25"/>
-		<import addon="script.module.routing" version="0.2.3+matrix.1"/>
-        <import addon="script.module.pil" version="5.1.0"/>
-		<import addon="plugin.program.autocompletion" version="2.1.2"/>
-        <import addon="script.module.autocompletion" version="2.0.3"/>
-        <import addon="script.module.requests" version="2.25.1+matrix.1"/>
-	</requires>
-	<extension point="xbmc.python.script" library="default.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.python.pluginsource" library="plugin.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<language/>
-		<summary lang="en_GB">ExtendedInfo Script</summary>
-		<description lang="en_GB">This script offers various possibilities to display online content inside skins as well as a complete MovieDB browser including info dialogs for various media types. Used services are themoviedb.org, theaudiodb.org, Trakt.TV, omdbapi.com and a lot more. Needs skin implementation for lot of functions.</description>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=160558</forum>
-		<source>https://github.com/scott967/script.extendedinfo</source>
-		<email>scott967@kodi.tv</email>
-		<news>Python 3 fixes and Nexus/Matrix updates by scott967.  Original addon for Leia and prior by phil65 (Philipp Temminghoff).  Requires Kutils module version 1.3.0 from Kodi official repo</news>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-			<screenshot>resources/screenshot-04.jpg</screenshot>
-			<screenshot>resources/screenshot-05.jpg</screenshot>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="script.games.rom.collection.browser" name="Rom Collection Browser" provider-name="bruny, malte" version="2.3.0">
   <requires>
 
@@ -662,33 +624,11 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
     </extension>
 </addon>
 
-<addon id="script.skin.info.service" name="Skin Info Service" version="1.1.0+matrix.1" provider-name="phil65, SiLVO">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0" />
-	</requires>
-	<extension point="xbmc.python.library"          library="default.py" />
-	<extension point="xbmc.python.script"           library="default.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Script used by skins to show extended media info.</summary>
-		<description lang="en_GB">This script fetches extended information for several media types (artists, albums, movie sets etc.). Needs skin support.</description>
-		<platform>all</platform>
-		<license>GPL-2.0-only</license>
-		<forum>https://forum.kodi.tv/showthread.php?tid=210069</forum>
-		<source>https://github.com/mikesilvo164/script.skin.info.service</source>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
-		<news>Python 3 compatibility[CR]Add Album discart for Artists[CR]Add set details support for Home Window</news>
-	</extension>
-</addon>
-
-<addon id="script.tv.show.next.aired" name="TV Show - Next Aired" version="6.0.15+matrix.3" provider-name="Ppic,Frost,ronie,`Black,phil65,WayneD">
+<addon id="script.tv.show.next.aired" name="TV Show - Next Aired" version="8.0.4" provider-name="WayneD,marcelveldt and others">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.simplejson" version="3.17.0+matrix.2"/>
-		<import addon="script.module.six" version="1.14.0+matrix.2"/>
+        <import addon="script.module.thetvdb" version="1.0.34" />
+        <import addon="script.module.infotagger" version="0.0.3" />
 	</requires>
 	<extension point="xbmc.python.script" library="default.py">
 		<provides>executable</provides>
@@ -755,12 +695,8 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 		<platform>all</platform>
 		<license>GPL v2.0</license>
 		<forum>http://forum.xbmc.org/showthread.php?tid=186090</forum>
-		<website>http://github.com/WayneD/script.tv.show.next.aired</website>
-		<source>https://github.com/WayneD/script.tv.show.next.aired.git</source>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
+		<website>http://github.com/marcelveldt/script.tv.show.next.aired</website>
+		<source>https://github.com/marcelveldt/script.tv.show.next.aired.git</source>
 	</extension>
 </addon>
 
@@ -808,7 +744,7 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
   </extension>
 </addon>
 
-<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.34" provider-name="Martijn, phil65, scott967">
+<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.35" provider-name="Martijn, phil65, scott967">
     <requires>
         <import addon="xbmc.json" version="12.0.0"/>
         <import addon="xbmc.python" version="3.0.0"/>
