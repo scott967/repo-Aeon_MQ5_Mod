@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.artworkorganizer" name="Artwork Organizer" version="6.0.3+matrix.1" provider-name="ronie, redglory">
+<addon id="script.artworkorganizer" name="Artwork Organizer" version="6.1.2" provider-name="ronie, redglory">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -67,10 +67,5 @@
         <website></website>
         <email></email>
         <source>https://github.com/redglory/script.artworkorganizer</source>
-		<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.png</fanart>
-		</assets>
-		<news>Updated for python 3 by scott967</news>
     </extension>
 </addon>

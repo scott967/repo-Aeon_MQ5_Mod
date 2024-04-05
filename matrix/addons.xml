@@ -19,7 +19,7 @@
   </extension>
 </addon>
 
-<addon id="script.artworkorganizer" name="Artwork Organizer" version="6.0.3+matrix.1" provider-name="ronie, redglory">
+<addon id="script.artworkorganizer" name="Artwork Organizer" version="6.1.2" provider-name="ronie, redglory">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -87,11 +87,6 @@
         <website></website>
         <email></email>
         <source>https://github.com/redglory/script.artworkorganizer</source>
-		<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.png</fanart>
-		</assets>
-		<news>Updated for python 3 by scott967</news>
     </extension>
 </addon>
 
@@ -146,25 +141,26 @@ add: Support for special:// content paths - Issue #124
     </extension>
 </addon>
 
+
 <addon id="script.database.cleaner"
       name="Video Database Cleaner"
-      version="0.6.1+matrix.2"
-      provider-name="black_eagle, BatterPudding.">
+      version="3.0.0"
+      provider-name="black_eagle, BatterPudding, KenMills, Fernando">
   <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.myconnpy" version="8.0.18+matrix.1"/>
+    <import addon="script.module.myconnpy" version="1.1.7"/>
   </requires>
   <extension point="xbmc.python.script"
             library="default.py" />
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary lang="en_GB">A Script to clean Kodi's video database</summary>
-    <description lang="en_GB">This program add-on will clean streams, old missing files and general junk from your video database. Works with both MySQL and SQLite libraries.As well as removing old streams and missing files, the script can optionally remove or rename a specific path.  Please see the README or the forum thread for details (http://forum.kodi.tv/showthread.php?tid=272112).</description>
+    <summary lang="en">A Script to clean Kodi's video database</summary>
+    <description lang="en">This program add-on will clean streams, old missing files and general junk from your video database. Works with both MySQL and SQLite libraries.As well as removing old streams and missing files, the script can optionally remove or rename a specific path.  Please see the README or the forum thread for details (http://forum.kodi.tv/showthread.php?tid=272112).</description>
     <disclaimer lang="en_GB">Whilst every effort has been taken to ensure it doesn't, this script could break your database. Always make sure you back it up !!</disclaimer>
     <forum>http://forum.kodi.tv/showthread.php?tid=272112</forum>
 	<assets>
 		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
+		<fanart>fanart.png</fanart>
+	<screenshot></screenshot>
 	</assets>
   </extension>
 </addon>
@@ -594,6 +590,27 @@ Egenskaper:
 	</extension>
 </addon>
 
+<addon id="script.module.thetvdb"
+       name="The TVDB API v2"
+       version="1.0.35"
+       provider-name="marcelveldt and others">
+    <requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.9.1"/>
+        <import addon="script.module.simplejson" version="3.17.0"/>
+        <import addon="script.module.simplecache" version="2.0.2"/>
+        <import addon="script.module.arrow" version="0.15.5"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>TheTVDB API v2 python module for Kodi</summary>
+        <description>TheTVDB API v3 python module for Kodi</description>
+        <license>Apache 2.0</license>
+        <source>https://github.com/kodi-community-addons/script.module.thetvdb</source>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="script.randomandlastitems" name="Random and Last items script" version="2.2.2+matrix.6" provider-name="MikeBZH44, Martijn, `Black">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -698,32 +715,6 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 		<website>http://github.com/marcelveldt/script.tv.show.next.aired</website>
 		<source>https://github.com/marcelveldt/script.tv.show.next.aired.git</source>
 	</extension>
-</addon>
-
-<addon
-	id="service.languagepreferencemanager"
-	name="Language Preference Manager"
-	version="0.0.7+matrix.3"
-	provider-name="ace20022/scott967"
-	>
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-	</requires>
-	<extension point="xbmc.service" library="default.py" start="login"/>
-	<extension point="xbmc.python.script" library="default.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Language Preference Manager</summary>
-		<description lang="en_GB">Sets the audio and subtitle track according to your language preferences</description>
-		<disclaimer lang="en_GB">For bugs, requests or general questions visit the Language Preference Manager thread on the Kodi forum.</disclaimer>
-		<platform>all</platform>
-		<news>Updated with changes required for Kodi 19 / Python 3</news>
-		<assets>
-			<icon>resources/icon.png</icon>
-		</assets>
-	</extension>
-
 </addon>
 
 <addon
