@@ -813,7 +813,7 @@ matrix.3 fix  Send Runscript not XBMC.Runscript to Kodi (Kodi 19 change)</news>
 
 <addon id="service.skinhelper.IP"
     name="IP Helper Service"
-    version="1.0.1+matrix.1"
+    version="1.0.1+matrix.2"
     provider-name="Snecx">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
