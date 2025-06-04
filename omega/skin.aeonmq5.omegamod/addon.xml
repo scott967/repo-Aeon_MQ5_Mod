@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.aeonmq5.omegamod" name="Aeon MQ 5 Omegamod" provider-name="MarcosQui / scott967" version="13.8.0">
+<addon id="skin.aeonmq5.omegamod" name="Aeon MQ 5 Omegamod" provider-name="MarcosQui / scott967" version="13.8.2">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
 		<import addon="script.artistslideshow" version="3.3.0" />
@@ -19,7 +19,7 @@
 	<extension debugging="false" effectslowdown="0.75" point="xbmc.gui.skin">
 		<res aspect="4:3" default="false" folder="xml" height="1440" width="1920" />
 		<res aspect="3:2" default="false" folder="xml" height="1280" width="1920" />
-		<res aspect="16:10" default="false" folder="xml" height="1200" width="1920" />
+		<res aspect="16:10" default="false" folder="1610_xml" height="1200" width="1920" />
 		<res aspect="17:9" default="false" folder="xml" height="1080" width="2040" />
 		<res aspect="16:9" default="true" folder="xml" height="1080" width="1920" />
 		<res aspect="16:9" default="false" folder="xml" height="720" width="1280" />
@@ -67,8 +67,9 @@
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
 		</assets>
-		<news>[B][COLOR=FFFF8C00]BUILD 13.8.0 - RELEASE DATE 2024-03-31 for Kodi OMEGA 21.0 release[/COLOR][/B]
-This is a MOD of Aeon MQ5 by user scott967.  Compatible with Kodi Omega release 21.0 RC1 and later. 
+		<news>[B][COLOR=FFFF8C00]BUILD 13.8.2 - RELEASE DATE 2025-05-31 for Kodi OMEGA 21.0+ release[/COLOR][/B]
+This is a MOD of Aeon MQ5 by user scott967.  Compatible with Kodi Omega release 21.0 and later.   
+Now providing layout for 16:10 aspect displays
 		</news>
 	</extension>
 
