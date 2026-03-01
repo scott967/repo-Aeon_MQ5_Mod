@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.aeonmq5_mod" name="Aeon MQ5 Mod Skin Repository" version="11.2.0" provider-name="scott967">
+<addon id="repository.aeonmq5_mod" name="Aeon MQ5 Mod Skin Repository" version="11.3.0" provider-name="scott967">
 	<requires>
 		<import addon="xbmc.addon" version="13.0.0"/>
 	</requires>
@@ -28,6 +28,12 @@
 			<datadir zip="true">https://raw.githubusercontent.com/scott967/repo-Aeon_MQ5_Mod/master/omega</datadir>
 			<hashes>false</hashes>
 		</dir>
+		<dir minversion="21.90.900">
+			<info compressed="false">https://raw.githubusercontent.com/scott967/repo-Aeon_MQ5_Mod/master/piers/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/scott967/repo-Aeon_MQ5_Mod/master/piers/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/scott967/repo-Aeon_MQ5_Mod/master/piers</datadir>
+			<hashes>false</hashes>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install Aeon MQ 5 Mod skin from Add-on Repository</summary>
@@ -36,7 +42,7 @@
 		<platform>all</platform>
 	</extension>
 	<assets>
-		<news></news>
+		<news>Updated for Kodi 22 / Piers</news>
 		<icon>icon.png</icon>
 	</assets>
 </addon>
