@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.randomandlastitems" name="Random and Last items script" version="3.0.5" provider-name="MikeBZH44, Martijn, `Black">
+<addon id="script.randomandlastitems" name="Random and Last items script" version="3.0.7" provider-name="MikeBZH44, Martijn, `Black">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="xbmc.json" version="12.0.0"/>
         <import addon="script.module.simplejson" version="3.17.0+matrix.2"/>
     </requires>
-    <extension point="xbmc.python.library" library="randomandlastitems.py" />
-	<extension point="xbmc.python.script" library="randomandlastitems.py">
+    <extension point="xbmc.python.script" library="default.py">
 		<provides>executable</provides>
 	</extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Random And Last Items script</summary>
         <description lang="en">
 Script to get Random or Last added movies, episodes, albums or music videos from the database.
-Can optionnaly handle playlist to filter results.
+Can optionally handle playlist to filter results.
         </description>
         <summary lang="fr">Random And Last Items script</summary>
         <description lang="fr">
@@ -26,5 +25,12 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
         <source>https://github.com/scott967/script.randomandlastitems</source>
         <forum>http://forum.xbmc.org/showthread.php?tid=122448</forum>
         <email></email>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+        <news>
+        Ver 3.07 refactored per Kodi structure
+        </news>
     </extension>
 </addon>
