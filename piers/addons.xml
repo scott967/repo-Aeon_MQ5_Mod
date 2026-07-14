@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.aeonmq5.piersmod" name="Aeon MQ 5 Piersmod" provider-name="MarcosQui / scott967" version="14.8.4">
+<addon id="skin.aeonmq5.piersmod" name="Aeon MQ 5 Piersmod" provider-name="MarcosQui / scott967" version="14.9.2">
 	<requires>
 		<import addon="xbmc.gui" version="5.18.0" />
 		<import addon="script.artistslideshow" version="3.3.0" />
@@ -68,9 +68,9 @@
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
 		</assets>
-		<news>[B][COLOR=FFFF8C00]BUILD 14.8.4 - RELEASE DATE 2026-02-28 for Kodi PIERS 22 alpha[/COLOR][/B]
-This is a MOD of Aeon MQ5 by user scott967.  Compatible with Kodi Piers release 22 A3 and later.
-Now providing layout for 16:10 aspect displays
+		<news>[B][COLOR=FFFF8C00]BUILD 14.9.2 - RELEASE DATE 2026-07-13 for Kodi PIERS 22 beta[/COLOR][/B]
+This is a MOD of Aeon MQ5 by user scott967.  Compatible with Kodi Piers release 22 B1 and later.
+Supports SkinInfo Service v2
 		</news>
 	</extension>
 
