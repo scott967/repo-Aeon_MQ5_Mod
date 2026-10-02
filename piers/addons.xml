@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.aeonmq5.piersmod" name="Aeon MQ 5 Piersmod" provider-name="MarcosQui / scott967" version="14.9.2">
+<addon id="skin.aeonmq5.piersmod" name="Aeon MQ 5 Piersmod" provider-name="MarcosQui / scott967" version="14.9.4">
 	<requires>
 		<import addon="xbmc.gui" version="5.18.0" />
-		<import addon="script.artistslideshow" version="3.3.0" />
+		<import addon="script.artistslideshow" version="4.2.0" />
 		<import addon="script.favourites" version="8.1.2" />
-		<import addon="script.globalsearch" version="9.0.0" />
+		<import addon="script.globalsearch" version="9.2.1" />
 		<import addon="script.image.resource.select" version="3.0.0" />
 		<import addon="script.playalbum" version="4.0.0" />
-		<import addon="script.randomandlastitems" version="3.0.1" />
-		<import addon="service.skin.widgets" version="0.0.36" />
+		<import addon="script.randomandlastitems" version="3.0.7" />
+		<import addon="service.skin.widgets" version="1.0.3" />
 		<import addon="script.toolbox" version="2.0.0" />
 		<import addon="script.cu.lrclyrics" version="6.3.0"  optional="true"/>
 		<import addon="script.games.rom.collection.browser" version="2.3.0"  optional="true"/>
 		<import addon="script.libraryeditor" version="0.9.0+matrix.1"  optional="true"/>
-		<import addon="script.skin.info.service" version="1.1.2" optional="true" />
+		<import addon="script.skin.info.service" version="2.0.0" optional="true" />
 		<import addon="script.tv.show.next.aired" version="6.0.15+matrix.3"  optional="true"/>
 	</requires>
 	<extension debugging="false" effectslowdown="0.75" point="xbmc.gui.skin">
@@ -68,8 +68,8 @@
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
 		</assets>
-		<news>[B][COLOR=FFFF8C00]BUILD 14.9.2 - RELEASE DATE 2026-07-13 for Kodi PIERS 22 beta[/COLOR][/B]
-This is a MOD of Aeon MQ5 by user scott967.  Compatible with Kodi Piers release 22 B1 and later.
+		<news>[B][COLOR=FFFF8C00]BUILD 14.9.4 - Release build for Kodi PIERS 22[/COLOR][/B]
+This is a MOD of Aeon MQ5 by user scott967.  Compatible with Kodi Piers release 22 RC1 and later.
 Supports SkinInfo Service v2
 		</news>
 	</extension>
